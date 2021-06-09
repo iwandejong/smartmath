@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Power Math</title>
+        <link rel="stylesheet" href="Assets/mathquill.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="Assets/mathquill.js"></script>
+        <script>
+            var MQ = MathQuill.getInterface(2);
+        </script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <style>
+            body {
+                font-family : sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="trinomial">
+        <h1>Power Math</h1>
+        <h3>Trinomial</h3>
+        <span id="trinomial">
+            (\MathQuillMathField{1})x^2 + (\MathQuillMathField{+7})x + (\MathQuillMathField{+6}) = 0
+        </span>
+        <p>Answer: <span id="solution"></span><br><br>
+            <span id="FinalSolution"></span>
+            <span id="inbetween"></span>
+            <span id="FinalSolution2"></span>
+        </p>
+        <button onclick="Calculate()">Calculate</button>
+        <br><br>
+        </section>
+        <section class="euclidean-geometry">
+        <h3>Euclidean Geometry</h3>
+        <span id="euclidean-geometry-field-1">
+            p1 (\MathQuillMathField{1};\MathQuillMathField{1})
+        </span><br>
+        <span id="euclidean-geometry-field-2">
+            p2 (\MathQuillMathField{2};\MathQuillMathField{2})
+        </span>
+        <p>Answer: <br>
+            <span id="mp"></span><br>
+            <span id="m"></span><br>
+            <span id="a"></span><br>
+            <span id="formulamxc"></span>
+        </p>
+        <button onclick="euclidean()">Calculate</button>    
+        </section>    
+        <script src="main.js"></script>
+    </body>
+</html>
