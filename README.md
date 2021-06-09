@@ -2,7 +2,7 @@
 SmartMath is an open-source project involving fun equations, especially those used at school.\
 Smartmath will continue to expand it's capabilities as the coder expands his knowledge😜
 
-# Functions
+# Features
 ## Trinomial
 Enter a,b,c, the parameters of a trinomial equation to get the two x-values.
 ### Formula(s)
@@ -28,6 +28,19 @@ Enter 2 coordinates to calculate the gradient, distance between points, center b
 `
     var centery = (p2y-p1y) / 2;
     `
+## Future Features
+I'm working on one at a time! But here are a shortlist of the next few features to be added:\
+- Differentiating
+- Probability
+- Functions
+- Parabola, Hyperbole, etc.
+
+### Machine Features
+I'm working on some features that will appeal the visual as well as the internal functions:\
+- Scalable Design systems (React or Stenciljs)
+- Downsizing a function to be reusable anywhere
+- Mobile compatibility
+- Code performance
 
 ## External Uses
 Smartmath uses MathQuill (https://github.com/mathquill/mathquill) for mathematical markdown. Otherwise, everything are just raw JS☠
