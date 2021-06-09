@@ -4,7 +4,7 @@ Smartmath will continue to expand it's capabilities as the coder expands his kno
 
 # Functions
 ## Trinomial
-Enter a,b,c, the parameters of a trinomial equation to get the two x-values.\
+Enter a,b,c, the parameters of a trinomial equation to get the two x-values.
 ### Formula(s)
 `
 var answer = ((-b + Math.sqrt(Math.pow(b,2) - (4 * a * c))) / 2 * a) * -1;
@@ -27,7 +27,7 @@ Enter 2 coordinates to calculate the gradient, distance between points, center b
     `\
 `
     var centery = (p2y-p1y) / 2;
-    `\
+    `
 
 ## External Uses
-Smartmath uses MathQuill (https://github.com/mathquill/mathquill) for mathematical markdown. Otherwise, everything are just rawbone JS!
+Smartmath uses MathQuill (https://github.com/mathquill/mathquill) for mathematical markdown. Otherwise, everything are just raw JS☠
